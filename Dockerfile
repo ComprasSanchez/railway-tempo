@@ -2,7 +2,7 @@ FROM grafana/tempo:latest
 
 EXPOSE 3200
 
-COPY ./tempo.yaml /etc/tempo.yaml
+COPY ./tempo.yml /etc/tempo.yml
 
 EXPOSE 3200 14268 14250 4317 4318
 
