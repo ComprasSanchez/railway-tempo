@@ -21,8 +21,8 @@ ingester:
   lifecycler:
     ring:
       kvstore:
-      store: inmemory
-    replication_factor: 1
+        store: inmemory
+      replication_factor: 1
   trace_idle_period: 10s
   max_block_duration: 5m
 
