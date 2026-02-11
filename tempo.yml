@@ -15,6 +15,7 @@ distributor:
       protocols:
         grpc:
         http:
+          endpoint: 0.0.0.0:4318
 
 ingester:
   trace_idle_period: 10s
