@@ -23,10 +23,12 @@ ingester:
       kvstore:
         store: inmemory
       replication_factor: 1
+    address: 127.0.0.1
   trace_idle_period: 10s
   max_block_duration: 5m
 
 memberlist:
+  bind_port: 7946
   join_members: []
 
 storage:
