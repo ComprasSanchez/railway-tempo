@@ -26,6 +26,9 @@ ingester:
   trace_idle_period: 10s
   max_block_duration: 5m
 
+memberlist:
+  join_members: []
+
 storage:
   trace:
     backend: local
