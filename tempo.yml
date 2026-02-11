@@ -29,8 +29,11 @@ ingester:
   max_block_duration: 5m
 
 memberlist:
+  bind_addr: 0.0.0.0
   bind_port: 7946
-  join_members: []
+  advertise_addr: 127.0.0.1
+  join_members:
+    - 127.0.0.1:7946
 
 storage:
   trace:
